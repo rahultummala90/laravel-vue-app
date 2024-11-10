@@ -1,0 +1,31 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-RTfD9hDr.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-U8LkMAbN.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/views/AboutView.vue"
+    ],
+    "css": [
+      "assets/app-RTfD9hDr.css"
+    ]
+  },
+  "resources/js/views/AboutView.vue": {
+    "file": "assets/AboutView-Cip-oxGd.js",
+    "name": "AboutView",
+    "src": "resources/js/views/AboutView.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/app-RTfD9hDr.css"
+    ]
+  }
+}
